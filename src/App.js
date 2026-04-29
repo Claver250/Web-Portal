@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import Login from './components/login';
-import Dashboard from './components/dashboard';
+import Login from './components/Login';
+import Dashboard from './components/Dashboard';
 
 function App() {
     // Check if we already have a session
