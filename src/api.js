@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-// Replace the URL below with your actual deployed backend URL (Render/Vercel)
+// Replace this with your actual Render or Vercel backend URL
 const API_URL = 'https://your-backend-api-link.vercel.app/api'; 
 
 const api = axios.create({
