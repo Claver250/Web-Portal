@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import api from '../app'; // Use our custom API service
+import api from '../App'; // Use our custom API service
 
 const Dashboard = ({ setToken }) => {
     const [profile, setProfile] = useState(null);
