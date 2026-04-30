@@ -1,9 +1,12 @@
 {
   "name": "web-portal",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "vercel-build": "react-scripts build"
   },
   "keywords": [],
   "author": "",
@@ -11,6 +14,9 @@
   "description": "",
   "dependencies": {
     "axios": "^1.15.2",
-    "react": "^19.2.5"
+    "dom": "^0.0.3",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "react-scripts": "^5.0.1"
   }
 }
